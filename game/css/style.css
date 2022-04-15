@@ -1,0 +1,191 @@
+body {
+	background: black;
+	overflow: hidden;
+}
+
+
+
+#game {
+	position:fixed;
+	margin: auto; 
+	height: 100%;
+	width:100%;
+	display: block; 
+}
+
+#cv-footer {
+	position: relative;
+	height: 20px;
+	position: fixed;
+	top: 92%;
+	right: 5%;
+	display: none;
+}
+
+.cv-footer-btn
+{
+	display: inline-block;
+	background: red;
+	width: 20px;
+	height: 20px;
+	opacity: 1;
+	border-radius: 20px;
+	border: 2px solid yellow;
+	cursor: pointer;
+}
+
+.cv-footer-btn:hover
+{
+	background-color: yellow;
+	border: 2px solid red;
+}
+
+.mute {
+	background-image: url(../images/icons/mute.svg);
+	background-size: contain;
+}
+
+.unmute {
+	background-image: url(../images/icons/unmute.svg);
+	background-size: contain;
+}
+
+.music-btn
+{
+	display: inline-block;
+	background: white;
+	width: 20px;
+	height: 20px;
+	opacity: 1;
+	border-radius: 20px;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+.music-btn:hover
+{
+	background-color: white;
+	border: 2px solid red;
+}
+
+.mmute {
+	background-image: url(../images/icons/music_note_mute.png);
+	background-size: contain;
+}
+
+.unmmute {
+	background-image: url(../images/icons/music_note.png);
+	background-size: contain;
+}
+
+#loader {
+	display: block;
+	position: fixed;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px; 
+	margin-left: -200px;
+	box-shadow: 0px 0px 20px black;
+	opacity: 0.8;
+	background: black;
+	border-radius: 5px;
+}
+
+#loader img {
+	position: relative;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+#loadertext {
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#toggle-leaderboard {
+	position: fixed;
+	display: none;
+	width: 400px;
+	height: 500px;
+	right: -390;
+	top: 10%;
+	box-shadow: 0px 0px 20px black;
+	opacity: 0.8;
+	background: black;
+	border-radius: 5px;
+}
+
+#tablearea table {
+	margin: auto;
+	color: white;
+	padding: 5px;
+	
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+#tablearea th, td{
+	padding: 10px;
+	text-align: center;
+}
+
+#tablearea {
+	width: 100%;
+	position: absolute;
+	top: 5;
+	left: 10;
+}
+
+.lb {
+	color:white;
+	font-weight:bold;
+	display: inline-block;
+}
+
+.lb span {
+	transform: rotate(-90deg);
+	position: relative;
+	left: -50%;
+	top: 70;
+	color:white;
+	font-weight:bold;
+	display: inline-block;
+	background: black;
+	border-radius: 4px;
+}
+
+#mobi-footer {
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 80%;
+	height: 20%;
+	opacity: 0.35;
+}
+
+.ctr-btn {
+	display: block;
+	width: 20%;
+	height: 100%;
+	background: white;
+	border: 1px solid black;
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	
+   -webkit-user-select: none;
+}
+
+.ctr-btn:hover {
+	
+	background: yellow;
+}
+
+
+.right { float: right; }
+.left { float: left; }
